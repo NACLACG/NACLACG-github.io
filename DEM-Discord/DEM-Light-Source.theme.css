@@ -21,10 +21,10 @@
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css'); /* Font */
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/DEM-Cursor.css'); /* Cursor */
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/DEM-Import.theme.css'); /* Main File */
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css'); /* Light Part of Theme */
+@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/font/stylesheet.css'); /* Font */
+@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/DEM-Cursor.css'); /* Cursor */
+@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/DEM-Import.theme.css'); /* Main File */
+@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/LightImport.theme.css'); /* Light Part of Theme */
 
 /* GLOBAL VARIABLES */
 :root {
