@@ -1,12 +1,12 @@
 /**
- * @name NieR: Automata UI Light
+ * @name DEM
  * @version 1.4
  * @description Glory to Mankind. || 
  * Thanks to JulioDRai for letting me use their cursors! 
  * ~https://www.deviantart.com/juliodrai || 
  * Thanks to GOmonkeymanGO for letting me use some of their code 
  * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
- * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @website https://naclacg.github.io/DEM-Discord
  * @author Accrazed#2710
  * @invite X4nBPCa
  * @patreon https://www.patreon.com/accrazed
@@ -21,10 +21,10 @@
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
-@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/font/stylesheet.css'); /* Font */
-@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/DEM-Cursor.css'); /* Cursor */
-@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/DEM-Import.theme.css'); /* Main File */
-@import url('https://github.com/NACLACG/NACLACG.github.io/tree/master/DEM-Discord/LightImport.theme.css'); /* Light Part of Theme */
+@import url('https://naclacg.github.io/DEM-Discord/font/stylesheet.css'); /* Font */
+@import url('https://naclacg.github.io/DEM-Discord/DEM-Cursor.css'); /* Cursor */
+@import url('https://naclacg.github.io/DEM-Discord/DEM-Import.theme.css'); /* Main File */
+@import url('https://naclacg.github.io/DEM-Discord/LightImport.theme.css'); /* Light Part of Theme */
 
 /* GLOBAL VARIABLES */
 :root {
