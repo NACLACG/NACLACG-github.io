@@ -1,0 +1,34 @@
+/**
+ * @name DEM
+ * @version 2.0
+ * @description OWO 
+ * @website https://naclacg.github.io/DEM-Discord
+ * @author NaClACG
+ * @invite X4nBPCa
+ */
+/*
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url('https://naclacg.github.io/DEM-Discord/font/stylesheet.css'); /* Font */
+@import url('https://naclacg.github.io/DEM-Discord/DEM-Cursor.css'); /* Cursor */
+@import url('https://naclacg.github.io/DEM-Discord/DEM-Import.theme.css'); /* Main File */
+@import url('https://naclacg.github.io/DEM-Discord/LightImport.theme.css'); /* Light Part of Theme */
+
+/* GLOBAL VARIABLES */
+:root {
+    --color-high: rgb(254, 181, 254);
+    --color-low: rgb(127, 54, 127);
+    --color-mid: rgb(189, 116, 189);
+    --color-alert: rgb(173, 100, 173);
+    --color-high-trans: rgba(255, 195, 255，0.8);
+    --color-low-trans: rgba(195, 122, 195, 0.6);
+    --color-alert-trans: rgba(210, 137, 210, 0.7);
+    --nier-font: sce-ps3_rodin_latinregular;
+    --background:					url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/wallpapers/dark-theme-1080.png);
+}
