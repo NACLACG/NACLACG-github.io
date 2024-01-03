@@ -380,10 +380,6 @@
   min-height: 75px;
 }
 
-.childWrapper__01b9c{
-border-radius: rgba(0, 0, 0，0);
-}
-
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
   background-color: var(--color-low);
   color: var(--color-low);
