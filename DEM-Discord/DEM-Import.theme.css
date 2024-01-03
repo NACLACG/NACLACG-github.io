@@ -372,7 +372,7 @@
 }
 
 .childWrapper__01b9c path {
-  fill: transparent ;
+  fill: rgba(0, 0, 0，0) ;
 }
 .childWrapper__01b9c {
   background: var(--home-icon) center/cover no-repeat;
