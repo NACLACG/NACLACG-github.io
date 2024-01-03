@@ -375,7 +375,7 @@
   fill: transparent ;
 }
 .childWrapper__01b9c {
-  background: var(--home-icon) center/cover no-repeat;
+  background: transparent center/cover no-repeat;
   min-width: 75px;
   min-height: 75px;
 }
@@ -383,6 +383,10 @@
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
   background-color: transparent ;
   color: transparent ;
+}
+
+.folder__17546, .folderIconWrapper__72239, .childWrapper__01b9c, .circleIconButton_d8df29, .homeIcon__00b1b{
+border-radius: var(--server-radius);
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
