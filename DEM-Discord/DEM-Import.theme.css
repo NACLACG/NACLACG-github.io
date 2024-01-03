@@ -375,8 +375,8 @@
   fill: transparent ;
 }
 .childWrapper__01b9c {
-  background: transparent center/cover no-repeat;
-  border-radius: rgba(0, 0, 0，0);
+  background: transparent center;
+  border-radius: transparent;
   min-width: 75px;
   min-height: 75px;
 }
