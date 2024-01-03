@@ -34,6 +34,7 @@
   --text-link: var(--color-alert);
   --text-muted: var(--color-low);
   --interactive-muted: var(--color-mid);
+  --home-icon: url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/icons/home_dark-theme.png);
   --background-primary: var(--color-high);
   --background-secondary: var(--color-high);
   --background-secondary-alt: var(--color-high);
@@ -368,6 +369,15 @@
 
 .notice-2HEN-u {
   border-radius: 0;
+}
+
+.childWrapper__01b9c path {
+  fill: transparent;
+}
+.childWrapper__01b9c {
+  background: var(--home-icon) center/cover no-repeat;
+  min-width: 75px;
+  min-height: 75px;
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
