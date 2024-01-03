@@ -372,12 +372,17 @@
 }
 
 .childWrapper__01b9c path {
-  fill: transparent;
+  fill: var(--azurite-bg);
 }
 .childWrapper__01b9c {
   background: var(--home-icon) center/cover no-repeat;
   min-width: 75px;
   min-height: 75px;
+}
+
+.childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
+  background-color: var(--azurite-sec);
+  color: var(--azurite-bg);
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
