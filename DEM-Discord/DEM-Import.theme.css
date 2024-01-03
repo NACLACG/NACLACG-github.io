@@ -372,7 +372,7 @@
 }
 
 .childWrapper__01b9c path {
-  fill: var(--color-low) !important;
+  fill: var(--color-low);
 }
 .childWrapper__01b9c {
   background: var(--home-icon) center/cover no-repeat;
@@ -381,12 +381,12 @@
 }
 
 .childWrapper__01b9c{
-border-radius: var(--color-low) !important;
+border-radius: var(--color-low);
 }
 
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-  background-color: var(--color-low) !important;
-  color: var(--color-low) !important;
+  background-color: var(--color-low);
+  color: var(--color-low);
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
