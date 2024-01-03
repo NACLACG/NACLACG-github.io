@@ -381,8 +381,8 @@
 }
 
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-  background-color: var(--color-low) !important ;
-  color: var(--color-low) !important ;
+  background-color: important ;
+  color: transparent ;
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
