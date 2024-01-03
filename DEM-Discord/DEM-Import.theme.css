@@ -372,17 +372,17 @@
 }
 
 .childWrapper__01b9c path {
-  fill: url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/icons/home_dark-theme.png) ;
+  fill: transparent ;
 }
 .childWrapper__01b9c {
-  background: url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/icons/home_dark-theme.png);
+  background: var(--home-icon) center/cover no-repeat;
   min-width: 75px;
   min-height: 75px;
 }
 
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-  background-color: url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/icons/home_dark-theme.png);
-  color: url(https://raw.githubusercontent.com/NACLACG/NACLACG.github.io/master/DEM-Discord/assets/icons/home_dark-theme.png);
+  background-color: transparent;
+  color: transparent;
 }
 
 .title-31SJ6t .children-3xh0VB .iconWrapper-2awDjA {
