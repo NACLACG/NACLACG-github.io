@@ -372,10 +372,10 @@
 }
 
 .childWrapper__01b9c path {
-  fill: var(--home-icon) !important ;
+  fill: transparent ;
 }
 .childWrapper__01b9c {
-  background: transparent center/cover repeat;
+  background: transparent center/cover no-repeat;
   border-radius: transparent;
   min-width: 75px;
   min-height: 75px;
