@@ -372,7 +372,7 @@
 }
 
 .childWrapper__01b9c path {
-  fill: var(--home-icon) ;
+  fill: var(--home-icon) !important ;
 }
 .childWrapper__01b9c {
   background: transparent center/cover no-repeat;
@@ -382,7 +382,7 @@
 }
 
 .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c {
-  background-color: var(--home-icon) ;
+  background-color: transparent ;
   color: transparent ;
 }
 
