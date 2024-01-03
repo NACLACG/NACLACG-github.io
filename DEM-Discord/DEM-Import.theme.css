@@ -375,7 +375,7 @@
   fill: transparent ;
 }
 .childWrapper__01b9c {
-  background: var(--home-icon) !important center/cover no-repeat;
+  background: var(--home-icon) center/cover no-repeat;
   border-radius: transparent;
   min-width: 75px;
   min-height: 75px;
