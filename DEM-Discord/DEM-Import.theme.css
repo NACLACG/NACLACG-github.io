@@ -376,7 +376,7 @@
 }
 .childWrapper__01b9c {
   background: var(--home-icon) center/cover no-repeat;
-  border-radius: transparent;
+  border-radius: var(--home-icon);
   min-width: 75px;
   min-height: 75px;
 }
