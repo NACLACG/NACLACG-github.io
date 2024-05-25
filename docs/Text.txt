@@ -1,0 +1,1302 @@
+
+(venv) D:\PycharmProjects\Post>nuitka --mingw64 --show-progress --standalone --windows-icon-from-ico="D:/-0.ico" --copyright="D:/PycharmProjects/Post/copyright.txt" --output-dir="D:/PycharmProjects/Post/" D:/PycharmProjects/Post/main.py
+Nuitka-Options: Used command line options: --mingw64 --show-progress --standalone --windows-icon-from-ico=D:/-0.ico
+Nuitka-Options: --copyright=D:/PycharmProjects/Post/copyright.txt --output-dir=D:/PycharmProjects/Post/
+Nuitka-Options: D:/PycharmProjects/Post/main.py
+Nuitka: Starting Python compilation with Nuitka '2.2.3' on Python '3.10' commercial grade 'not installed'.
+Nuitka-Memory: Total memory usage before processing:: 38.61 MB (40480768 bytes)
+Nuitka-Progress: PASS 1:
+Nuitka-Progress: Optimizing module '__main__', 0 more modules to go after that.
+Nuitka-Progress: Doing module local optimizations for '__main__'.
+Nuitka-Progress: Not finished with the module due to following change kinds:
+Nuitka-Progress: new_expression,new_statements,trusted_module_variables,var_usage
+Nuitka-Progress: Not finished with the module due to following change kinds: new_builtin_ref
+Nuitka-Progress: Not changed, but retrying one more time.
+Nuitka-Progress: Finished with the module.
+Nuitka-Progress: Optimizing module 'os', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'os':
+Nuitka-Progress: Optimizing module 'io', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'io':
+Nuitka-Progress: Optimizing module 'subprocess', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'subprocess':
+Nuitka-Progress: Optimizing module 'selectors', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'selectors':
+Nuitka-Progress: Optimizing module 'collections.abc', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'collections.abc':
+Nuitka-Progress: Optimizing module 'collections', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'collections':
+Nuitka-Progress: Optimizing module 'copy', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'copy':
+Nuitka-Progress: Optimizing module 'copyreg', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'copyreg':
+Nuitka-Progress: Optimizing module 'functools', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'functools':
+Nuitka-Progress: Optimizing module 'typing', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'typing':
+Nuitka-Progress: Optimizing module 're', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 're':
+Nuitka-Progress: Optimizing module 'sre_constants', 19 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_constants':
+Nuitka-Progress: Optimizing module 'sre_parse', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_parse':
+Nuitka-Progress: Optimizing module 'unicodedata', 18 more modules to go after that.
+Nuitka-Progress: Optimizing module 'sre_compile', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_compile':
+Nuitka-Progress: Optimizing module 'enum', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'enum':
+Nuitka-Progress: Optimizing module 'weakref', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'weakref':
+Nuitka-Progress: Optimizing module '_weakrefset', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_weakrefset':
+Nuitka-Progress: Optimizing module 'heapq', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'heapq':
+Nuitka-Progress: Optimizing module 'reprlib', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'reprlib':
+Nuitka-Progress: Optimizing module 'operator', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'operator':
+Nuitka-Progress: Optimizing module 'keyword', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'keyword':
+Nuitka-Progress: Optimizing module 'select', 10 more modules to go after that.
+Nuitka-Progress: Optimizing module 'types', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'types':
+Nuitka-Progress: Optimizing module 'contextlib', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'contextlib':
+Nuitka-Progress: Optimizing module 'threading', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'threading':
+Nuitka-Progress: Optimizing module '_threading_local', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_threading_local':
+Nuitka-Progress: Optimizing module 'traceback', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'traceback':
+Nuitka-Progress: Optimizing module 'linecache', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'linecache':
+Nuitka-Progress: Optimizing module 'tokenize', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tokenize':
+Nuitka-Progress: Optimizing module 'token', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'token':
+Nuitka-Progress: Optimizing module 'codecs', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'codecs':
+Nuitka-Progress: Optimizing module 'signal', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'signal':
+Nuitka-Progress: Optimizing module 'warnings', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'warnings':
+Nuitka-Progress: Optimizing module 'tracemalloc', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tracemalloc':
+Nuitka-Progress: Optimizing module 'pickle', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pickle':
+Nuitka-Progress: Optimizing module '_compat_pickle', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_compat_pickle':
+Nuitka-Progress: Optimizing module 'struct', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'struct':
+Nuitka-Progress: Optimizing module 'fnmatch', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fnmatch':
+Nuitka-Progress: Optimizing module 'posixpath', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'posixpath':
+Nuitka-Progress: Optimizing module 'genericpath', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'genericpath':
+Nuitka-Progress: Optimizing module 'ntpath', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ntpath':
+Nuitka-Progress: Optimizing module 'string', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'string':
+Nuitka-Progress: Optimizing module '_collections_abc', 3 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_collections_abc':
+Nuitka-Progress: Optimizing module 'stat', 2 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'stat':
+Nuitka-Progress: Optimizing module 'abc', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'abc':
+Nuitka-Progress: Optimizing module '_py_abc', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_py_abc':
+Nuitka-Progress: Optimizing module 'pyperclip', 0 more modules to go after that.
+Nuitka-Progress: Doing module local optimizations for 'pyperclip'.
+Nuitka-Progress: Not finished with the module due to following change kinds:
+Nuitka-Progress: new_builtin,new_builtin_ref,new_constant,new_expression,new_statements,trusted_module_variables,var_usage
+Nuitka-Progress: Not finished with the module due to following change kinds:
+Nuitka-Progress: loop_analysis,new_builtin,new_builtin_ref,new_constant,new_expression,new_statements,var_usage
+Nuitka-Progress: Not finished with the module due to following change kinds:
+Nuitka-Progress: loop_analysis,new_expression,new_statements,var_usage
+Nuitka-Progress: Not finished with the module due to following change kinds: new_statements
+Nuitka-Progress: Not changed, but retrying one more time.
+Nuitka-Progress: Finished with the module.
+Nuitka-Progress: Optimizing module 'ctypes.wintypes', 3 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes.wintypes':
+Nuitka-Progress: Optimizing module 'shutil', 2 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'shutil':
+Nuitka-Progress: Optimizing module 'zipfile', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'zipfile':
+Nuitka-Progress: Optimizing module 'py_compile', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'py_compile':
+Nuitka-Progress: Optimizing module 'argparse', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'argparse':
+Nuitka-Progress: Optimizing module 'textwrap', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'textwrap':
+Nuitka-Progress: Optimizing module 'gettext', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'gettext':
+Nuitka-Progress: Optimizing module 'locale', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'locale':
+Nuitka-Progress: Optimizing module 'encodings.aliases', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.aliases':
+Nuitka-Progress: Optimizing module 'encodings', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings':
+Nuitka-Progress: Optimizing module 'encodings.mbcs', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mbcs':
+Nuitka-Progress: Optimizing module 'importlib.machinery', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.machinery':
+Nuitka-Progress: Optimizing module 'importlib._bootstrap', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._bootstrap':
+Nuitka-Progress: Optimizing module 'importlib._bootstrap_external', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._bootstrap_external':
+Nuitka-Progress: Optimizing module 'importlib.metadata', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata':
+Nuitka-Progress: Optimizing module 'importlib.abc', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.abc':
+Nuitka-Progress: Optimizing module 'importlib._abc', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._abc':
+Nuitka-Progress: Optimizing module 'importlib.metadata._itertools', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._itertools':
+Nuitka-Progress: Optimizing module 'importlib.metadata._functools', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._functools':
+Nuitka-Progress: Optimizing module 'importlib.metadata._collections', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._collections':
+Nuitka-Progress: Optimizing module 'importlib.metadata._meta', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._meta':
+Nuitka-Progress: Optimizing module 'importlib.metadata._adapters', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._adapters':
+Nuitka-Progress: Optimizing module 'importlib.metadata._text', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._text':
+Nuitka-Progress: Optimizing module 'email.message', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.message':
+Nuitka-Progress: Optimizing module 'email.policy', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.policy':
+Nuitka-Progress: Optimizing module 'email.contentmanager', 21 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.contentmanager':
+Nuitka-Progress: Optimizing module 'email.quoprimime', 21 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.quoprimime':
+Nuitka-Progress: Optimizing module 'email.headerregistry', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.headerregistry':
+Nuitka-Progress: Optimizing module 'email._header_value_parser', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._header_value_parser':
+Nuitka-Progress: Optimizing module 'urllib', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'urllib':
+Nuitka-Progress: Optimizing module 'email.iterators', 19 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.iterators':
+Nuitka-Progress: Optimizing module 'email.generator', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.generator':
+Nuitka-Progress: Optimizing module 'random', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'random':
+Nuitka-Progress: Optimizing module 'statistics', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'statistics':
+Nuitka-Progress: Optimizing module 'decimal', 22 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'decimal':
+Nuitka-Progress: Optimizing module '_pydecimal', 23 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_pydecimal':
+Nuitka-Progress: Optimizing module 'contextvars', 23 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'contextvars':
+Nuitka-Progress: Optimizing module '_decimal', 22 more modules to go after that.
+Nuitka-Progress: Optimizing module 'fractions', 21 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fractions':
+Nuitka-Progress: Optimizing module 'numbers', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'numbers':
+Nuitka-Progress: Optimizing module 'hashlib', 19 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'hashlib':
+Nuitka-Progress: Optimizing module 'logging', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'logging':
+Nuitka-Progress: Optimizing module '_hashlib', 19 more modules to go after that.
+Nuitka-Progress: Optimizing module 'bisect', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'bisect':
+Nuitka-Progress: Optimizing module 'email._encoded_words', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._encoded_words':
+Nuitka-Progress: Optimizing module 'base64', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'base64':
+Nuitka-Progress: Optimizing module 'email.charset', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.charset':
+Nuitka-Progress: Optimizing module 'email.encoders', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.encoders':
+Nuitka-Progress: Optimizing module 'email.base64mime', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.base64mime':
+Nuitka-Progress: Optimizing module 'email._policybase', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._policybase':
+Nuitka-Progress: Optimizing module 'email.header', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.header':
+Nuitka-Progress: Optimizing module 'email.errors', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.errors':
+Nuitka-Progress: Optimizing module 'email.utils', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.utils':
+Nuitka-Progress: Optimizing module 'email._parseaddr', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._parseaddr':
+Nuitka-Progress: Optimizing module 'calendar', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'calendar':
+Nuitka-Progress: Optimizing module 'urllib.parse', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'urllib.parse':
+Nuitka-Progress: Optimizing module 'datetime', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'datetime':
+Nuitka-Progress: Optimizing module '_strptime', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_strptime':
+Nuitka-Progress: Optimizing module 'quopri', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'quopri':
+Nuitka-Progress: Optimizing module 'uu', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'uu':
+Nuitka-Progress: Optimizing module 'email', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email':
+Nuitka-Progress: Optimizing module 'email.parser', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.parser':
+Nuitka-Progress: Optimizing module 'email.feedparser', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.feedparser':
+Nuitka-Progress: Optimizing module 'csv', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'csv':
+Nuitka-Progress: Optimizing module 'importlib.readers', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.readers':
+Nuitka-Progress: Optimizing module 'pathlib', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pathlib':
+Nuitka-Progress: Optimizing module 'importlib.util', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.util':
+Nuitka-Progress: Optimizing module 'importlib', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib':
+Nuitka-Progress: Optimizing module 'tarfile', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tarfile':
+Nuitka-Progress: Optimizing module 'gzip', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'gzip':
+Nuitka-Progress: Optimizing module '_compression', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_compression':
+Nuitka-Progress: Optimizing module 'lzma', 3 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'lzma':
+Nuitka-Progress: Optimizing module '_lzma', 3 more modules to go after that.
+Nuitka-Progress: Optimizing module 'bz2', 2 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'bz2':
+Nuitka-Progress: Optimizing module '_bz2', 2 more modules to go after that.
+Nuitka-Progress: Optimizing module 'platform', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'platform':
+Nuitka-Progress: Optimizing module 'socket', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'socket':
+Nuitka-Progress: Optimizing module '_socket', 1 more modules to go after that.
+Nuitka-Progress: Optimizing module 'ctypes', 0 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes':
+Nuitka-Progress: Optimizing module 'ctypes._endian', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes._endian':
+Nuitka-Progress: Optimizing module '_ctypes', 0 more modules to go after that.
+Nuitka-Progress: Optimizing module 'xdrlib', 184 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'xdrlib':
+Nuitka-Progress: Optimizing module 'webbrowser', 183 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'webbrowser':
+Nuitka-Progress: Optimizing module 'trace', 182 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'trace':
+Nuitka-Progress: Optimizing module 'timeit', 181 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'timeit':
+Nuitka-Progress: Optimizing module 'sysconfig', 180 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sysconfig':
+Nuitka-Progress: Optimizing module 'symtable', 179 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'symtable':
+Nuitka-Progress: Optimizing module 'stringprep', 178 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'stringprep':
+Nuitka-Progress: Optimizing module 'socketserver', 177 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'socketserver':
+Nuitka-Progress: Optimizing module 'sndhdr', 176 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sndhdr':
+Nuitka-Progress: Optimizing module 'shlex', 175 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'shlex':
+Nuitka-Progress: Optimizing module 'sched', 174 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sched':
+Nuitka-Progress: Optimizing module 'rlcompleter', 173 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'rlcompleter':
+Nuitka-Progress: Optimizing module 'pyclbr', 172 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pyclbr':
+Nuitka-Progress: Optimizing module 'pstats', 171 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pstats':
+Nuitka-Progress: Optimizing module 'pprint', 170 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pprint':
+Nuitka-Progress: Optimizing module 'poplib', 169 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'poplib':
+Nuitka-Progress: Optimizing module 'pkgutil', 168 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pkgutil':
+Nuitka-Progress: Optimizing module 'pipes', 167 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pipes':
+Nuitka-Progress: Optimizing module 'pickletools', 166 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pickletools':
+Nuitka-Progress: Optimizing module 'nturl2path', 165 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'nturl2path':
+Nuitka-Progress: Optimizing module 'netrc', 164 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'netrc':
+Nuitka-Progress: Optimizing module 'modulefinder', 163 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'modulefinder':
+Nuitka-Progress: Optimizing module 'mimetypes', 162 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'mimetypes':
+Nuitka-Progress: Optimizing module 'mailcap', 161 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'mailcap':
+Nuitka-Progress: Optimizing module 'json.scanner', 160 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.scanner':
+Nuitka-Progress: Optimizing module 'json.encoder', 159 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.encoder':
+Nuitka-Progress: Optimizing module 'json.decoder', 158 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.decoder':
+Nuitka-Progress: Optimizing module 'json', 157 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json':
+Nuitka-Progress: Optimizing module 'ipaddress', 156 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ipaddress':
+Nuitka-Progress: Optimizing module 'importlib.resources', 155 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.resources':
+Nuitka-Progress: Optimizing module 'importlib._common', 154 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._common':
+Nuitka-Progress: Optimizing module 'importlib._adapters', 153 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._adapters':
+Nuitka-Progress: Optimizing module 'imp', 152 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imp':
+Nuitka-Progress: Optimizing module 'imghdr', 151 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imghdr':
+Nuitka-Progress: Optimizing module 'imaplib', 150 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imaplib':
+Nuitka-Progress: Optimizing module 'html.parser', 149 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html.parser':
+Nuitka-Progress: Optimizing module 'html.entities', 148 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html.entities':
+Nuitka-Progress: Optimizing module 'html', 147 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html':
+Nuitka-Progress: Optimizing module 'graphlib', 146 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'graphlib':
+Nuitka-Progress: Optimizing module 'glob', 145 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'glob':
+Nuitka-Progress: Optimizing module 'getopt', 144 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'getopt':
+Nuitka-Progress: Optimizing module 'ftplib', 143 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ftplib':
+Nuitka-Progress: Optimizing module 'fileinput', 142 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fileinput':
+Nuitka-Progress: Optimizing module 'filecmp', 141 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'filecmp':
+Nuitka-Progress: Optimizing module 'encodings.rot_13', 140 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.rot_13':
+Nuitka-Progress: Optimizing module 'encodings.idna', 139 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.idna':
+Nuitka-Progress: Optimizing module 'encodings.hex_codec', 138 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hex_codec':
+Nuitka-Progress: Optimizing module 'encodings.bz2_codec', 137 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.bz2_codec':
+Nuitka-Progress: Optimizing module 'encodings.base64_codec', 136 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.base64_codec':
+Nuitka-Progress: Optimizing module 'difflib', 135 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'difflib':
+Nuitka-Progress: Optimizing module 'dataclasses', 134 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'dataclasses':
+Nuitka-Progress: Optimizing module 'configparser', 133 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'configparser':
+Nuitka-Progress: Optimizing module 'colorsys', 132 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'colorsys':
+Nuitka-Progress: Optimizing module 'codeop', 131 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'codeop':
+Nuitka-Progress: Optimizing module 'code', 130 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'code':
+Nuitka-Progress: Optimizing module 'cmd', 129 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cmd':
+Nuitka-Progress: Optimizing module 'chunk', 128 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'chunk':
+Nuitka-Progress: Optimizing module 'cgitb', 127 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cgitb':
+Nuitka-Progress: Optimizing module 'cgi', 126 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cgi':
+Nuitka-Progress: Optimizing module 'binhex', 125 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'binhex':
+Nuitka-Progress: Optimizing module '_sitebuiltins', 124 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_sitebuiltins':
+Nuitka-Progress: Optimizing module '_pyio', 123 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_pyio':
+Nuitka-Progress: Optimizing module '_osx_support', 122 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_osx_support':
+Nuitka-Progress: Optimizing module '_markupbase', 121 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_markupbase':
+Nuitka-Progress: Optimizing module '_bootsubprocess', 120 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_bootsubprocess':
+Nuitka-Progress: Optimizing module '_aix_support', 119 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_aix_support':
+Nuitka-Progress: Optimizing module '__future__', 118 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '__future__':
+Nuitka-Progress: Optimizing module 'opcode', 117 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'opcode':
+Nuitka-Progress: Optimizing module 'inspect', 116 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'inspect':
+Nuitka-Progress: Optimizing module 'encodings.zlib_codec', 115 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.zlib_codec':
+Nuitka-Progress: Optimizing module 'encodings.uu_codec', 114 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.uu_codec':
+Nuitka-Progress: Optimizing module 'encodings.utf_8_sig', 113 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_8_sig':
+Nuitka-Progress: Optimizing module 'encodings.utf_8', 112 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_8':
+Nuitka-Progress: Optimizing module 'encodings.utf_7', 111 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_7':
+Nuitka-Progress: Optimizing module 'encodings.utf_32_le', 110 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32_le':
+Nuitka-Progress: Optimizing module 'encodings.utf_32_be', 109 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32_be':
+Nuitka-Progress: Optimizing module 'encodings.utf_32', 108 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32':
+Nuitka-Progress: Optimizing module 'encodings.utf_16_le', 107 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16_le':
+Nuitka-Progress: Optimizing module 'encodings.utf_16_be', 106 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16_be':
+Nuitka-Progress: Optimizing module 'encodings.utf_16', 105 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16':
+Nuitka-Progress: Optimizing module 'encodings.unicode_escape', 104 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.unicode_escape':
+Nuitka-Progress: Optimizing module 'encodings.undefined', 103 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.undefined':
+Nuitka-Progress: Optimizing module 'encodings.tis_620', 102 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.tis_620':
+Nuitka-Progress: Optimizing module 'encodings.shift_jisx0213', 101 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jisx0213':
+Nuitka-Progress: Optimizing module 'encodings.shift_jis_2004', 100 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jis_2004':
+Nuitka-Progress: Optimizing module 'encodings.shift_jis', 99 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jis':
+Nuitka-Progress: Optimizing module 'encodings.raw_unicode_escape', 98 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.raw_unicode_escape':
+Nuitka-Progress: Optimizing module 'encodings.quopri_codec', 97 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.quopri_codec':
+Nuitka-Progress: Optimizing module 'encodings.punycode', 96 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.punycode':
+Nuitka-Progress: Optimizing module 'encodings.ptcp154', 95 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.ptcp154':
+Nuitka-Progress: Optimizing module 'encodings.palmos', 94 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.palmos':
+Nuitka-Progress: Optimizing module 'encodings.oem', 93 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.oem':
+Nuitka-Progress: Optimizing module 'encodings.mac_turkish', 92 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_turkish':
+Nuitka-Progress: Optimizing module 'encodings.mac_romanian', 91 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_romanian':
+Nuitka-Progress: Optimizing module 'encodings.mac_roman', 90 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_roman':
+Nuitka-Progress: Optimizing module 'encodings.mac_latin2', 89 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_latin2':
+Nuitka-Progress: Optimizing module 'encodings.mac_iceland', 88 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_iceland':
+Nuitka-Progress: Optimizing module 'encodings.mac_greek', 87 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_greek':
+Nuitka-Progress: Optimizing module 'encodings.mac_farsi', 86 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_farsi':
+Nuitka-Progress: Optimizing module 'encodings.mac_cyrillic', 85 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_cyrillic':
+Nuitka-Progress: Optimizing module 'encodings.mac_croatian', 84 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_croatian':
+Nuitka-Progress: Optimizing module 'encodings.mac_arabic', 83 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_arabic':
+Nuitka-Progress: Optimizing module 'encodings.latin_1', 82 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.latin_1':
+Nuitka-Progress: Optimizing module 'encodings.kz1048', 81 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.kz1048':
+Nuitka-Progress: Optimizing module 'encodings.koi8_u', 80 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_u':
+Nuitka-Progress: Optimizing module 'encodings.koi8_t', 79 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_t':
+Nuitka-Progress: Optimizing module 'encodings.koi8_r', 78 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_r':
+Nuitka-Progress: Optimizing module 'encodings.johab', 77 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.johab':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_9', 76 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_9':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_8', 75 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_8':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_7', 74 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_7':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_6', 73 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_6':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_5', 72 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_5':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_4', 71 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_4':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_3', 70 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_3':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_2', 69 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_2':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_16', 68 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_16':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_15', 67 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_15':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_14', 66 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_14':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_13', 65 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_13':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_11', 64 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_11':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_10', 63 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_10':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_1', 62 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_1':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_kr', 61 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_kr':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_ext', 60 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_ext':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_3', 59 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_3':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_2004', 58 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_2004':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_2', 57 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_2':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_1', 56 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_1':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp', 55 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp':
+Nuitka-Progress: Optimizing module 'encodings.hz', 54 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hz':
+Nuitka-Progress: Optimizing module 'encodings.hp_roman8', 53 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hp_roman8':
+Nuitka-Progress: Optimizing module 'encodings.gbk', 52 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gbk':
+Nuitka-Progress: Optimizing module 'encodings.gb2312', 51 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gb2312':
+Nuitka-Progress: Optimizing module 'encodings.gb18030', 50 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gb18030':
+Nuitka-Progress: Optimizing module 'encodings.euc_kr', 49 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_kr':
+Nuitka-Progress: Optimizing module 'encodings.euc_jp', 48 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jp':
+Nuitka-Progress: Optimizing module 'encodings.euc_jisx0213', 47 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jisx0213':
+Nuitka-Progress: Optimizing module 'encodings.euc_jis_2004', 46 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jis_2004':
+Nuitka-Progress: Optimizing module 'encodings.cp950', 45 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp950':
+Nuitka-Progress: Optimizing module 'encodings.cp949', 44 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp949':
+Nuitka-Progress: Optimizing module 'encodings.cp932', 43 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp932':
+Nuitka-Progress: Optimizing module 'encodings.cp875', 42 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp875':
+Nuitka-Progress: Optimizing module 'encodings.cp874', 41 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp874':
+Nuitka-Progress: Optimizing module 'encodings.cp869', 40 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp869':
+Nuitka-Progress: Optimizing module 'encodings.cp866', 39 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp866':
+Nuitka-Progress: Optimizing module 'encodings.cp865', 38 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp865':
+Nuitka-Progress: Optimizing module 'encodings.cp864', 37 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp864':
+Nuitka-Progress: Optimizing module 'encodings.cp863', 36 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp863':
+Nuitka-Progress: Optimizing module 'encodings.cp862', 35 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp862':
+Nuitka-Progress: Optimizing module 'encodings.cp861', 34 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp861':
+Nuitka-Progress: Optimizing module 'encodings.cp860', 33 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp860':
+Nuitka-Progress: Optimizing module 'encodings.cp858', 32 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp858':
+Nuitka-Progress: Optimizing module 'encodings.cp857', 31 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp857':
+Nuitka-Progress: Optimizing module 'encodings.cp856', 30 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp856':
+Nuitka-Progress: Optimizing module 'encodings.cp855', 29 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp855':
+Nuitka-Progress: Optimizing module 'encodings.cp852', 28 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp852':
+Nuitka-Progress: Optimizing module 'encodings.cp850', 27 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp850':
+Nuitka-Progress: Optimizing module 'encodings.cp775', 26 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp775':
+Nuitka-Progress: Optimizing module 'encodings.cp737', 25 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp737':
+Nuitka-Progress: Optimizing module 'encodings.cp720', 24 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp720':
+Nuitka-Progress: Optimizing module 'encodings.cp500', 23 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp500':
+Nuitka-Progress: Optimizing module 'encodings.cp437', 22 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp437':
+Nuitka-Progress: Optimizing module 'encodings.cp424', 21 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp424':
+Nuitka-Progress: Optimizing module 'encodings.cp273', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp273':
+Nuitka-Progress: Optimizing module 'encodings.cp1258', 19 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1258':
+Nuitka-Progress: Optimizing module 'encodings.cp1257', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1257':
+Nuitka-Progress: Optimizing module 'encodings.cp1256', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1256':
+Nuitka-Progress: Optimizing module 'encodings.cp1255', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1255':
+Nuitka-Progress: Optimizing module 'encodings.cp1254', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1254':
+Nuitka-Progress: Optimizing module 'encodings.cp1253', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1253':
+Nuitka-Progress: Optimizing module 'encodings.cp1252', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1252':
+Nuitka-Progress: Optimizing module 'encodings.cp1251', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1251':
+Nuitka-Progress: Optimizing module 'encodings.cp1250', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1250':
+Nuitka-Progress: Optimizing module 'encodings.cp1140', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1140':
+Nuitka-Progress: Optimizing module 'encodings.cp1125', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1125':
+Nuitka-Progress: Optimizing module 'encodings.cp1026', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1026':
+Nuitka-Progress: Optimizing module 'encodings.cp1006', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1006':
+Nuitka-Progress: Optimizing module 'encodings.cp037', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp037':
+Nuitka-Progress: Optimizing module 'encodings.charmap', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.charmap':
+Nuitka-Progress: Optimizing module 'encodings.big5hkscs', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.big5hkscs':
+Nuitka-Progress: Optimizing module 'encodings.big5', 3 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.big5':
+Nuitka-Progress: Optimizing module 'encodings.ascii', 2 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.ascii':
+Nuitka-Progress: Optimizing module 'dis', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'dis':
+Nuitka-Progress: Optimizing module 'ast', 0 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ast':
+Nuitka-Progress: PASS 2:
+Nuitka-Progress: Optimizing module '__main__', 0 more modules to go after that.
+Nuitka-Progress: Doing module local optimizations for '__main__'.
+Nuitka-Progress: Finished with the module.
+Nuitka-Progress: Optimizing module 'zipfile', 265 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'zipfile':
+Nuitka-Progress: Optimizing module 'py_compile', 267 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'py_compile':
+Nuitka-Progress: Optimizing module 'argparse', 267 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'argparse':
+Nuitka-Progress: Optimizing module 'textwrap', 267 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'textwrap':
+Nuitka-Progress: Optimizing module 'lzma', 266 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'lzma':
+Nuitka-Progress: Optimizing module '_lzma', 266 more modules to go after that.
+Nuitka-Progress: Optimizing module 'bz2', 265 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'bz2':
+Nuitka-Progress: Optimizing module '_bz2', 265 more modules to go after that.
+Nuitka-Progress: Optimizing module 'xdrlib', 264 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'xdrlib':
+Nuitka-Progress: Optimizing module 'webbrowser', 263 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'webbrowser':
+Nuitka-Progress: Optimizing module 'weakref', 262 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'weakref':
+Nuitka-Progress: Optimizing module 'uu', 261 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'uu':
+Nuitka-Progress: Optimizing module 'unicodedata', 260 more modules to go after that.
+Nuitka-Progress: Optimizing module 'typing', 259 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'typing':
+Nuitka-Progress: Optimizing module 'tracemalloc', 258 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tracemalloc':
+Nuitka-Progress: Optimizing module 'traceback', 257 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'traceback':
+Nuitka-Progress: Optimizing module 'trace', 256 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'trace':
+Nuitka-Progress: Optimizing module 'timeit', 255 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'timeit':
+Nuitka-Progress: Optimizing module 'threading', 254 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'threading':
+Nuitka-Progress: Optimizing module 'tarfile', 253 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tarfile':
+Nuitka-Progress: Optimizing module 'sysconfig', 252 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sysconfig':
+Nuitka-Progress: Optimizing module 'symtable', 251 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'symtable':
+Nuitka-Progress: Optimizing module 'struct', 250 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'struct':
+Nuitka-Progress: Optimizing module 'stringprep', 249 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'stringprep':
+Nuitka-Progress: Optimizing module 'string', 248 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'string':
+Nuitka-Progress: Optimizing module 'socketserver', 247 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'socketserver':
+Nuitka-Progress: Optimizing module 'sndhdr', 246 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sndhdr':
+Nuitka-Progress: Optimizing module 'signal', 245 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'signal':
+Nuitka-Progress: Optimizing module 'shutil', 244 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'shutil':
+Nuitka-Progress: Optimizing module 'shlex', 243 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'shlex':
+Nuitka-Progress: Optimizing module 'sched', 242 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sched':
+Nuitka-Progress: Optimizing module 'rlcompleter', 241 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'rlcompleter':
+Nuitka-Progress: Optimizing module 'pyclbr', 240 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pyclbr':
+Nuitka-Progress: Optimizing module 'pstats', 239 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pstats':
+Nuitka-Progress: Optimizing module 'pprint', 238 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pprint':
+Nuitka-Progress: Optimizing module 'posixpath', 237 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'posixpath':
+Nuitka-Progress: Optimizing module 'poplib', 236 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'poplib':
+Nuitka-Progress: Optimizing module 'platform', 235 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'platform':
+Nuitka-Progress: Optimizing module 'socket', 236 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'socket':
+Nuitka-Progress: Optimizing module 'selectors', 237 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'selectors':
+Nuitka-Progress: Optimizing module 'select', 237 more modules to go after that.
+Nuitka-Progress: Optimizing module '_socket', 236 more modules to go after that.
+Nuitka-Progress: Optimizing module 'subprocess', 235 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'subprocess':
+Nuitka-Progress: Optimizing module 'pkgutil', 234 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pkgutil':
+Nuitka-Progress: Optimizing module 'pipes', 233 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pipes':
+Nuitka-Progress: Optimizing module 'pickletools', 232 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pickletools':
+Nuitka-Progress: Optimizing module 'pickle', 231 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pickle':
+Nuitka-Progress: Optimizing module 'pathlib', 230 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'pathlib':
+Nuitka-Progress: Optimizing module 'urllib.parse', 231 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'urllib.parse':
+Nuitka-Progress: Optimizing module 'urllib', 230 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'urllib':
+Nuitka-Progress: Optimizing module 'numbers', 229 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'numbers':
+Nuitka-Progress: Optimizing module 'nturl2path', 228 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'nturl2path':
+Nuitka-Progress: Optimizing module 'netrc', 227 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'netrc':
+Nuitka-Progress: Optimizing module 'modulefinder', 226 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'modulefinder':
+Nuitka-Progress: Optimizing module 'mimetypes', 225 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'mimetypes':
+Nuitka-Progress: Optimizing module 'mailcap', 224 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'mailcap':
+Nuitka-Progress: Optimizing module 'json.scanner', 223 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.scanner':
+Nuitka-Progress: Optimizing module 'json.encoder', 222 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.encoder':
+Nuitka-Progress: Optimizing module 'json.decoder', 221 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json.decoder':
+Nuitka-Progress: Optimizing module 'json', 220 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'json':
+Nuitka-Progress: Optimizing module 'ipaddress', 219 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ipaddress':
+Nuitka-Progress: Optimizing module 'importlib.util', 218 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.util':
+Nuitka-Progress: Optimizing module 'importlib.resources', 217 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.resources':
+Nuitka-Progress: Optimizing module 'importlib.readers', 216 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.readers':
+Nuitka-Progress: Optimizing module 'importlib.metadata._text', 215 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._text':
+Nuitka-Progress: Optimizing module 'importlib.metadata._meta', 214 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._meta':
+Nuitka-Progress: Optimizing module 'importlib.metadata._itertools', 213 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._itertools':
+Nuitka-Progress: Optimizing module 'importlib.metadata._functools', 212 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._functools':
+Nuitka-Progress: Optimizing module 'importlib.metadata._collections', 211 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._collections':
+Nuitka-Progress: Optimizing module 'importlib.metadata._adapters', 210 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata._adapters':
+Nuitka-Progress: Optimizing module 'email.message', 211 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.message':
+Nuitka-Progress: Optimizing module 'email.policy', 218 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.policy':
+Nuitka-Progress: Optimizing module 'email.contentmanager', 219 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.contentmanager':
+Nuitka-Progress: Optimizing module 'email.quoprimime', 219 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.quoprimime':
+Nuitka-Progress: Optimizing module 'email.headerregistry', 218 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.headerregistry':
+Nuitka-Progress: Optimizing module 'email._header_value_parser', 218 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._header_value_parser':
+Nuitka-Progress: Optimizing module 'email.iterators', 217 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.iterators':
+Nuitka-Progress: Optimizing module 'email.generator', 216 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.generator':
+Nuitka-Progress: Optimizing module 'random', 216 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'random':
+Nuitka-Progress: Optimizing module 'statistics', 217 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'statistics':
+Nuitka-Progress: Optimizing module 'decimal', 218 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'decimal':
+Nuitka-Progress: Optimizing module '_pydecimal', 219 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_pydecimal':
+Nuitka-Progress: Optimizing module '_decimal', 218 more modules to go after that.
+Nuitka-Progress: Optimizing module 'fractions', 217 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fractions':
+Nuitka-Progress: Optimizing module 'hashlib', 216 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'hashlib':
+Nuitka-Progress: Optimizing module 'logging', 217 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'logging':
+Nuitka-Progress: Optimizing module '_hashlib', 216 more modules to go after that.
+Nuitka-Progress: Optimizing module 'email._encoded_words', 215 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._encoded_words':
+Nuitka-Progress: Optimizing module 'email.charset', 214 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.charset':
+Nuitka-Progress: Optimizing module 'email.encoders', 215 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.encoders':
+Nuitka-Progress: Optimizing module 'email.base64mime', 214 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.base64mime':
+Nuitka-Progress: Optimizing module 'email._policybase', 213 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._policybase':
+Nuitka-Progress: Optimizing module 'email.header', 213 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.header':
+Nuitka-Progress: Optimizing module 'email.errors', 212 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.errors':
+Nuitka-Progress: Optimizing module 'email.utils', 211 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.utils':
+Nuitka-Progress: Optimizing module 'email._parseaddr', 211 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email._parseaddr':
+Nuitka-Progress: Optimizing module 'email', 210 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email':
+Nuitka-Progress: Optimizing module 'email.parser', 210 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.parser':
+Nuitka-Progress: Optimizing module 'email.feedparser', 210 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'email.feedparser':
+Nuitka-Progress: Optimizing module 'importlib.metadata', 209 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.metadata':
+Nuitka-Progress: Optimizing module 'csv', 209 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'csv':
+Nuitka-Progress: Optimizing module 'importlib.abc', 208 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.abc':
+Nuitka-Progress: Optimizing module 'importlib._common', 207 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._common':
+Nuitka-Progress: Optimizing module 'importlib._adapters', 206 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._adapters':
+Nuitka-Progress: Optimizing module 'importlib._abc', 205 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._abc':
+Nuitka-Progress: Optimizing module 'imp', 204 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imp':
+Nuitka-Progress: Optimizing module 'imghdr', 203 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imghdr':
+Nuitka-Progress: Optimizing module 'imaplib', 202 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'imaplib':
+Nuitka-Progress: Optimizing module 'html.parser', 201 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html.parser':
+Nuitka-Progress: Optimizing module 'html.entities', 200 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html.entities':
+Nuitka-Progress: Optimizing module 'html', 199 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'html':
+Nuitka-Progress: Optimizing module 'heapq', 198 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'heapq':
+Nuitka-Progress: Optimizing module 'gzip', 197 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'gzip':
+Nuitka-Progress: Optimizing module 'graphlib', 196 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'graphlib':
+Nuitka-Progress: Optimizing module 'glob', 195 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'glob':
+Nuitka-Progress: Optimizing module 'gettext', 194 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'gettext':
+Nuitka-Progress: Optimizing module 'getopt', 193 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'getopt':
+Nuitka-Progress: Optimizing module 'ftplib', 192 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ftplib':
+Nuitka-Progress: Optimizing module 'fnmatch', 191 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fnmatch':
+Nuitka-Progress: Optimizing module 'fileinput', 190 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'fileinput':
+Nuitka-Progress: Optimizing module 'filecmp', 189 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'filecmp':
+Nuitka-Progress: Optimizing module 'encodings.rot_13', 188 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.rot_13':
+Nuitka-Progress: Optimizing module 'encodings.idna', 187 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.idna':
+Nuitka-Progress: Optimizing module 'encodings.hex_codec', 186 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hex_codec':
+Nuitka-Progress: Optimizing module 'encodings.bz2_codec', 185 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.bz2_codec':
+Nuitka-Progress: Optimizing module 'encodings.base64_codec', 184 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.base64_codec':
+Nuitka-Progress: Optimizing module 'difflib', 183 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'difflib':
+Nuitka-Progress: Optimizing module 'datetime', 182 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'datetime':
+Nuitka-Progress: Optimizing module 'dataclasses', 181 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'dataclasses':
+Nuitka-Progress: Optimizing module 'copy', 180 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'copy':
+Nuitka-Progress: Optimizing module 'contextvars', 179 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'contextvars':
+Nuitka-Progress: Optimizing module 'configparser', 178 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'configparser':
+Nuitka-Progress: Optimizing module 'colorsys', 177 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'colorsys':
+Nuitka-Progress: Optimizing module 'codeop', 176 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'codeop':
+Nuitka-Progress: Optimizing module 'code', 175 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'code':
+Nuitka-Progress: Optimizing module 'cmd', 174 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cmd':
+Nuitka-Progress: Optimizing module 'chunk', 173 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'chunk':
+Nuitka-Progress: Optimizing module 'cgitb', 172 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cgitb':
+Nuitka-Progress: Optimizing module 'cgi', 171 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'cgi':
+Nuitka-Progress: Optimizing module 'calendar', 170 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'calendar':
+Nuitka-Progress: Optimizing module 'bisect', 169 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'bisect':
+Nuitka-Progress: Optimizing module 'binhex', 168 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'binhex':
+Nuitka-Progress: Optimizing module 'base64', 167 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'base64':
+Nuitka-Progress: Optimizing module '_weakrefset', 166 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_weakrefset':
+Nuitka-Progress: Optimizing module '_threading_local', 165 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_threading_local':
+Nuitka-Progress: Optimizing module '_strptime', 164 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_strptime':
+Nuitka-Progress: Optimizing module '_sitebuiltins', 163 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_sitebuiltins':
+Nuitka-Progress: Optimizing module '_pyio', 162 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_pyio':
+Nuitka-Progress: Optimizing module '_py_abc', 161 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_py_abc':
+Nuitka-Progress: Optimizing module '_osx_support', 160 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_osx_support':
+Nuitka-Progress: Optimizing module '_markupbase', 159 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_markupbase':
+Nuitka-Progress: Optimizing module '_compression', 158 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_compression':
+Nuitka-Progress: Optimizing module '_compat_pickle', 157 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_compat_pickle':
+Nuitka-Progress: Optimizing module '_bootsubprocess', 156 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_bootsubprocess':
+Nuitka-Progress: Optimizing module '_aix_support', 155 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_aix_support':
+Nuitka-Progress: Optimizing module '__future__', 154 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '__future__':
+Nuitka-Progress: Optimizing module 'warnings', 153 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'warnings':
+Nuitka-Progress: Optimizing module 'types', 152 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'types':
+Nuitka-Progress: Optimizing module 'tokenize', 151 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'tokenize':
+Nuitka-Progress: Optimizing module 'token', 150 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'token':
+Nuitka-Progress: Optimizing module 'stat', 149 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'stat':
+Nuitka-Progress: Optimizing module 'sre_parse', 148 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_parse':
+Nuitka-Progress: Optimizing module 'sre_constants', 147 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_constants':
+Nuitka-Progress: Optimizing module 'sre_compile', 146 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'sre_compile':
+Nuitka-Progress: Optimizing module 'reprlib', 145 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'reprlib':
+Nuitka-Progress: Optimizing module 're', 144 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 're':
+Nuitka-Progress: Optimizing module 'quopri', 143 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'quopri':
+Nuitka-Progress: Optimizing module 'operator', 142 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'operator':
+Nuitka-Progress: Optimizing module 'opcode', 141 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'opcode':
+Nuitka-Progress: Optimizing module 'ntpath', 140 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ntpath':
+Nuitka-Progress: Optimizing module 'locale', 139 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'locale':
+Nuitka-Progress: Optimizing module 'linecache', 138 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'linecache':
+Nuitka-Progress: Optimizing module 'keyword', 137 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'keyword':
+Nuitka-Progress: Optimizing module 'io', 136 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'io':
+Nuitka-Progress: Optimizing module 'inspect', 135 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'inspect':
+Nuitka-Progress: Optimizing module 'importlib.machinery', 134 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib.machinery':
+Nuitka-Progress: Optimizing module 'importlib._bootstrap_external', 133 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._bootstrap_external':
+Nuitka-Progress: Optimizing module 'importlib._bootstrap', 132 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib._bootstrap':
+Nuitka-Progress: Optimizing module 'importlib', 131 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'importlib':
+Nuitka-Progress: Optimizing module 'genericpath', 130 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'genericpath':
+Nuitka-Progress: Optimizing module 'functools', 129 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'functools':
+Nuitka-Progress: Optimizing module 'enum', 128 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'enum':
+Nuitka-Progress: Optimizing module 'encodings.zlib_codec', 127 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.zlib_codec':
+Nuitka-Progress: Optimizing module 'encodings.uu_codec', 126 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.uu_codec':
+Nuitka-Progress: Optimizing module 'encodings.utf_8_sig', 125 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_8_sig':
+Nuitka-Progress: Optimizing module 'encodings.utf_8', 124 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_8':
+Nuitka-Progress: Optimizing module 'encodings.utf_7', 123 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_7':
+Nuitka-Progress: Optimizing module 'encodings.utf_32_le', 122 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32_le':
+Nuitka-Progress: Optimizing module 'encodings.utf_32_be', 121 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32_be':
+Nuitka-Progress: Optimizing module 'encodings.utf_32', 120 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_32':
+Nuitka-Progress: Optimizing module 'encodings.utf_16_le', 119 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16_le':
+Nuitka-Progress: Optimizing module 'encodings.utf_16_be', 118 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16_be':
+Nuitka-Progress: Optimizing module 'encodings.utf_16', 117 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.utf_16':
+Nuitka-Progress: Optimizing module 'encodings.unicode_escape', 116 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.unicode_escape':
+Nuitka-Progress: Optimizing module 'encodings.undefined', 115 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.undefined':
+Nuitka-Progress: Optimizing module 'encodings.tis_620', 114 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.tis_620':
+Nuitka-Progress: Optimizing module 'encodings.shift_jisx0213', 113 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jisx0213':
+Nuitka-Progress: Optimizing module 'encodings.shift_jis_2004', 112 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jis_2004':
+Nuitka-Progress: Optimizing module 'encodings.shift_jis', 111 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.shift_jis':
+Nuitka-Progress: Optimizing module 'encodings.raw_unicode_escape', 110 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.raw_unicode_escape':
+Nuitka-Progress: Optimizing module 'encodings.quopri_codec', 109 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.quopri_codec':
+Nuitka-Progress: Optimizing module 'encodings.punycode', 108 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.punycode':
+Nuitka-Progress: Optimizing module 'encodings.ptcp154', 107 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.ptcp154':
+Nuitka-Progress: Optimizing module 'encodings.palmos', 106 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.palmos':
+Nuitka-Progress: Optimizing module 'encodings.oem', 105 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.oem':
+Nuitka-Progress: Optimizing module 'encodings.mbcs', 104 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mbcs':
+Nuitka-Progress: Optimizing module 'encodings.mac_turkish', 103 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_turkish':
+Nuitka-Progress: Optimizing module 'encodings.mac_romanian', 102 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_romanian':
+Nuitka-Progress: Optimizing module 'encodings.mac_roman', 101 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_roman':
+Nuitka-Progress: Optimizing module 'encodings.mac_latin2', 100 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_latin2':
+Nuitka-Progress: Optimizing module 'encodings.mac_iceland', 99 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_iceland':
+Nuitka-Progress: Optimizing module 'encodings.mac_greek', 98 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_greek':
+Nuitka-Progress: Optimizing module 'encodings.mac_farsi', 97 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_farsi':
+Nuitka-Progress: Optimizing module 'encodings.mac_cyrillic', 96 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_cyrillic':
+Nuitka-Progress: Optimizing module 'encodings.mac_croatian', 95 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_croatian':
+Nuitka-Progress: Optimizing module 'encodings.mac_arabic', 94 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.mac_arabic':
+Nuitka-Progress: Optimizing module 'encodings.latin_1', 93 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.latin_1':
+Nuitka-Progress: Optimizing module 'encodings.kz1048', 92 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.kz1048':
+Nuitka-Progress: Optimizing module 'encodings.koi8_u', 91 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_u':
+Nuitka-Progress: Optimizing module 'encodings.koi8_t', 90 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_t':
+Nuitka-Progress: Optimizing module 'encodings.koi8_r', 89 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.koi8_r':
+Nuitka-Progress: Optimizing module 'encodings.johab', 88 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.johab':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_9', 87 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_9':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_8', 86 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_8':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_7', 85 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_7':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_6', 84 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_6':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_5', 83 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_5':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_4', 82 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_4':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_3', 81 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_3':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_2', 80 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_2':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_16', 79 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_16':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_15', 78 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_15':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_14', 77 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_14':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_13', 76 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_13':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_11', 75 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_11':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_10', 74 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_10':
+Nuitka-Progress: Optimizing module 'encodings.iso8859_1', 73 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso8859_1':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_kr', 72 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_kr':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_ext', 71 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_ext':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_3', 70 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_3':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_2004', 69 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_2004':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_2', 68 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_2':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp_1', 67 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp_1':
+Nuitka-Progress: Optimizing module 'encodings.iso2022_jp', 66 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.iso2022_jp':
+Nuitka-Progress: Optimizing module 'encodings.hz', 65 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hz':
+Nuitka-Progress: Optimizing module 'encodings.hp_roman8', 64 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.hp_roman8':
+Nuitka-Progress: Optimizing module 'encodings.gbk', 63 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gbk':
+Nuitka-Progress: Optimizing module 'encodings.gb2312', 62 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gb2312':
+Nuitka-Progress: Optimizing module 'encodings.gb18030', 61 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.gb18030':
+Nuitka-Progress: Optimizing module 'encodings.euc_kr', 60 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_kr':
+Nuitka-Progress: Optimizing module 'encodings.euc_jp', 59 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jp':
+Nuitka-Progress: Optimizing module 'encodings.euc_jisx0213', 58 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jisx0213':
+Nuitka-Progress: Optimizing module 'encodings.euc_jis_2004', 57 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.euc_jis_2004':
+Nuitka-Progress: Optimizing module 'encodings.cp950', 56 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp950':
+Nuitka-Progress: Optimizing module 'encodings.cp949', 55 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp949':
+Nuitka-Progress: Optimizing module 'encodings.cp932', 54 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp932':
+Nuitka-Progress: Optimizing module 'encodings.cp875', 53 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp875':
+Nuitka-Progress: Optimizing module 'encodings.cp874', 52 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp874':
+Nuitka-Progress: Optimizing module 'encodings.cp869', 51 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp869':
+Nuitka-Progress: Optimizing module 'encodings.cp866', 50 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp866':
+Nuitka-Progress: Optimizing module 'encodings.cp865', 49 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp865':
+Nuitka-Progress: Optimizing module 'encodings.cp864', 48 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp864':
+Nuitka-Progress: Optimizing module 'encodings.cp863', 47 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp863':
+Nuitka-Progress: Optimizing module 'encodings.cp862', 46 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp862':
+Nuitka-Progress: Optimizing module 'encodings.cp861', 45 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp861':
+Nuitka-Progress: Optimizing module 'encodings.cp860', 44 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp860':
+Nuitka-Progress: Optimizing module 'encodings.cp858', 43 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp858':
+Nuitka-Progress: Optimizing module 'encodings.cp857', 42 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp857':
+Nuitka-Progress: Optimizing module 'encodings.cp856', 41 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp856':
+Nuitka-Progress: Optimizing module 'encodings.cp855', 40 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp855':
+Nuitka-Progress: Optimizing module 'encodings.cp852', 39 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp852':
+Nuitka-Progress: Optimizing module 'encodings.cp850', 38 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp850':
+Nuitka-Progress: Optimizing module 'encodings.cp775', 37 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp775':
+Nuitka-Progress: Optimizing module 'encodings.cp737', 36 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp737':
+Nuitka-Progress: Optimizing module 'encodings.cp720', 35 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp720':
+Nuitka-Progress: Optimizing module 'encodings.cp500', 34 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp500':
+Nuitka-Progress: Optimizing module 'encodings.cp437', 33 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp437':
+Nuitka-Progress: Optimizing module 'encodings.cp424', 32 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp424':
+Nuitka-Progress: Optimizing module 'encodings.cp273', 31 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp273':
+Nuitka-Progress: Optimizing module 'encodings.cp1258', 30 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1258':
+Nuitka-Progress: Optimizing module 'encodings.cp1257', 29 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1257':
+Nuitka-Progress: Optimizing module 'encodings.cp1256', 28 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1256':
+Nuitka-Progress: Optimizing module 'encodings.cp1255', 27 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1255':
+Nuitka-Progress: Optimizing module 'encodings.cp1254', 26 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1254':
+Nuitka-Progress: Optimizing module 'encodings.cp1253', 25 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1253':
+Nuitka-Progress: Optimizing module 'encodings.cp1252', 24 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1252':
+Nuitka-Progress: Optimizing module 'encodings.cp1251', 23 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1251':
+Nuitka-Progress: Optimizing module 'encodings.cp1250', 22 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1250':
+Nuitka-Progress: Optimizing module 'encodings.cp1140', 21 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1140':
+Nuitka-Progress: Optimizing module 'encodings.cp1125', 20 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1125':
+Nuitka-Progress: Optimizing module 'encodings.cp1026', 19 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1026':
+Nuitka-Progress: Optimizing module 'encodings.cp1006', 18 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp1006':
+Nuitka-Progress: Optimizing module 'encodings.cp037', 17 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.cp037':
+Nuitka-Progress: Optimizing module 'encodings.charmap', 16 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.charmap':
+Nuitka-Progress: Optimizing module 'encodings.big5hkscs', 15 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.big5hkscs':
+Nuitka-Progress: Optimizing module 'encodings.big5', 14 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.big5':
+Nuitka-Progress: Optimizing module 'encodings.ascii', 13 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.ascii':
+Nuitka-Progress: Optimizing module 'encodings.aliases', 12 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings.aliases':
+Nuitka-Progress: Optimizing module 'encodings', 11 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'encodings':
+Nuitka-Progress: Optimizing module 'dis', 10 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'dis':
+Nuitka-Progress: Optimizing module 'copyreg', 9 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'copyreg':
+Nuitka-Progress: Optimizing module 'contextlib', 8 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'contextlib':
+Nuitka-Progress: Optimizing module 'collections.abc', 7 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'collections.abc':
+Nuitka-Progress: Optimizing module 'collections', 6 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'collections':
+Nuitka-Progress: Optimizing module 'codecs', 5 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'codecs':
+Nuitka-Progress: Optimizing module 'ast', 4 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ast':
+Nuitka-Progress: Optimizing module 'abc', 3 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'abc':
+Nuitka-Progress: Optimizing module '_collections_abc', 2 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for '_collections_abc':
+Nuitka-Progress: Optimizing module 'os', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'os':
+Nuitka-Progress: Optimizing module 'pyperclip', 0 more modules to go after that.
+Nuitka-Progress: Doing module local optimizations for 'pyperclip'.
+Nuitka-Progress: Finished with the module.
+Nuitka-Progress: Optimizing module 'ctypes.wintypes', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes.wintypes':
+Nuitka-Progress: Optimizing module 'ctypes', 0 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes':
+Nuitka-Progress: Optimizing module 'ctypes._endian', 1 more modules to go after that.
+Nuitka-Progress: Doing module dependency considerations for 'ctypes._endian':
+Nuitka-Progress: Optimizing module '_ctypes', 0 more modules to go after that.
+Nuitka: Completed Python level compilation and optimization.
+Nuitka: Generating source code for C backend compiler.
+Nuitka-Memory: Total memory usage before generating C code:: 58.20 MB (61030400 bytes)
+Nuitka-Memory: Total memory usage before running scons: 60.14 MB (63066112 bytes)
+Nuitka: Running data composer tool for optimal constant value handling.
+Nuitka: Running C compilation via Scons.
+Nuitka-Scons: Mismatch between Python binary ('D:\PycharmProjects\Post\venv\Scripts\python.exe' -> 'pei-x86-64') and C
+Nuitka-Scons: compiler ('C:\MinGW\bin\gcc.exe' -> 'pei-i386') arches, that compiler is ignored!
+Nuitka-Scons: Backend C compiler: gcc (gcc 13.2.0).
+Backend C: 100.0%|█████████████████████████| 7/7Nuitka-Scons: Backend linking program with 7 files (no progress informat
+
+Nuitka-Scons: Backend linking program with 7 files (no progress information available for this stage).
+Nuitka-Scons: Compiled 7 C files using ccache.
+Nuitka-Scons: Cached C files (using ccache) with result 'cache hit': 6
+Nuitka-Scons: Cached C files (using ccache) with result 'cache miss': 1
+Traceback (most recent call last):
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\__main__.py", line 161, in <module>
+    main()
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\__main__.py", line 147, in main
+    MainControl.main()
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\MainControl.py", line 1124, in main
+    _main()
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\MainControl.py", line 1006, in _main
+    executePostProcessing()
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\PostProcessing.py", line 303, in executePostProcessing
+    executePostProcessingResources(manifest=manifest, onefile=False)
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\PostProcessing.py", line 233, in executePostProcessingResources
+    addVersionInfoResource(
+  File "D:\PycharmProjects\Post\venv\lib\site-packages\nuitka\utils\WindowsResources.py", line 589, in addVersionInfoResource
+    assert product_version
+AssertionError
+Nuitka-Reports: Compilation crash report written to file 'nuitka-crash-report.xml'. Please include it in your bug
+Nuitka-Reports: report.
